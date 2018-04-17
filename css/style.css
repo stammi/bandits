@@ -1,0 +1,120 @@
+body {
+    font-family: "courier";
+
+}
+
+html, body {height: 100%}
+
+.content {
+    background: #E0EFEF;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1.5em;
+    margin: 0.25em;
+}
+
+div.ttb {
+    display: flex;
+    flex-flow: column;
+}
+
+
+.ltr {
+    display: flex;
+    flex-flow: row;
+}
+
+ul {
+    list-style-type: none;
+    padding-left:10px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.large {
+     width:98%;
+}
+
+.medium {
+     flex: 2 1 auto;
+}
+
+
+ul.form li {
+    padding-top:5px;
+    font-size:1.2em;
+}
+
+input {
+    background: #D0E0E0;
+    padding-top:0.4em;
+    margin-right:0.4em;
+    padding-bottom:0.3em;
+    max-width: 4em;
+    border:none;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 16px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: auto;
+    height: 2.3em;
+}
+
+button:hover {
+    border:solid;
+    border-width:0.02em;
+}
+
+
+ul.all-recos li ul {
+    border-bottom:solid 0.1em #999;
+}
+
+
+div.ads-container {
+    background: #ABC;
+}
+
+
+div.outlaw {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    background-attachment: fixed;
+}
+
+div.billy {
+    background-color: #d9cbc0;
+    background-image: url("../img/billy.png");
+
+
+}
+
+div.mary {
+    background-color: #ead7b7;
+    background-image: url("../img/mary.png");
+
+
+}
+
